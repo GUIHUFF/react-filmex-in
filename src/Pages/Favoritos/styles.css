@@ -1,0 +1,75 @@
+.meus-filmes {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meus-filmes h1 {
+    margin-bottom: 14px;
+}
+
+.meus-filmes span {
+    font-size: 18px;
+}
+
+.meus-filmes ul {
+    width: 720px;
+    max-width: 100%;
+    list-style: none;
+}
+
+.meus-filmes ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -1px;
+    border-top: #73a2c7 1px solid;
+    border-bottom: #73a2c7 1px solid;
+    padding: 0 30px;
+    border-radius: 8px;
+}
+.meus-filmes li img {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.meus-filmes li div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meus-filmes li div a {
+    text-decoration: none;
+    color: #73a2c7;
+    margin-right: 14px;
+}
+
+.meus-filmes .ver-mais {
+    text-align: center;
+}
+
+.meus-filmes li button {
+    border: #73a2c7 1px solid;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-right: 14px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.meus-filmes li button:hover {
+    background-color: #73a2c7;
+}
+
+.meus-filmes li button img {
+    width: 45px;
+}
+
+@media screen and (max-width: 500px ) {
+    .meus-filmes ul li {
+        padding: 5px;
+        flex-direction: column;
+
+    }
+}
+
