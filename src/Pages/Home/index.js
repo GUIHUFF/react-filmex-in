@@ -15,7 +15,7 @@ const Home = () => {
       async function loadFilmes() {
         const response = await api.get('movie/now_playing', {
           params: {
-            api_key: 'ab689815313a6cb4fd9a5df7af38599f',
+            api_key: `${process.env.REACT_APP_API_KEY}`,
             language: 'pt-BR',
             page: 1,
           }
