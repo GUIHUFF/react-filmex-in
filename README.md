@@ -1,6 +1,9 @@
 # react-filmex-in
+
 Guilherme Feier Huff
+
 28/mai/2022
+
 _Aplicação desenvolvida em curso de React
 
 <hr />
